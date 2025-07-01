@@ -15,6 +15,9 @@ MethanODE consists of a shared encoder-decoder Neural ODE that models all specie
         •	A shared encoder-decoder model built using Neural ODEs
         •	53 species + temperature modeled as a coupled ODE system
         •	Each output channel corresponds to a species or temperature prediction
+<p align="center">
+  <img src="Visualizations/Temp_prediction.jpg" width="550"/>
+</p>
 
 
 ---
