@@ -12,15 +12,16 @@ Developed as part of Siemens' Industrial AI assignment by
 
 MethanODE consists of a shared encoder-decoder Neural ODE that models all species and temperature jointly as a coupled dynamical system. This approach allows the network to learn inter-species interactions more effectively than the traditional ChemNODE sequential training.
 
-<p align="center">
-  <img src="Visualizations/model_architecture.png" width="500"/>
-</p>
+        •	A shared encoder-decoder model built using Neural ODEs
+        •	53 species + temperature modeled as a coupled ODE system
+        •	Each output channel corresponds to a species or temperature prediction
+
 
 ---
 
 ## 📈 Visualizations
 
-### 🔧 Training Dynamics
+###  Training Dynamics
 
 <p align="center">
   <img src="Visualizations/Trainin_neuralODE_model.jpg" width="550"/>
@@ -28,7 +29,7 @@ MethanODE consists of a shared encoder-decoder Neural ODE that models all specie
 
 ---
 
-###  Temperature Prediction (MAE = 0.1)
+###  Temperature Prediction 
 
 <p align="center">
   <img src="Visualizations/Temp_prediction.jpg" width="550"/>
@@ -36,7 +37,7 @@ MethanODE consists of a shared encoder-decoder Neural ODE that models all specie
 
 ---
 
-###  Specie-wise Analysis
+###  Specie-wise Analysis ( Avg MAE: 2.37e-04 )
 
 #### Actual vs Predicted Concentration of a Specie
 
