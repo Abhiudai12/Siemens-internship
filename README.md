@@ -126,5 +126,3 @@ MethanODE consists of a shared encoder-decoder Neural ODE that models all specie
 
 ---
 
-## 📁 Repository Structure
-
